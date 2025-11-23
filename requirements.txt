@@ -1,0 +1,21 @@
+# Multi-Agent Customer Service System Requirements
+# Python 3.8+
+
+# Core dependencies - using only Python standard library
+# No external packages required for basic functionality
+
+# The system uses:
+# - sqlite3 (built-in database)
+# - json (built-in data serialization)
+# - datetime (built-in timestamps)
+# - typing (built-in type hints)
+# - re (built-in regex)
+
+# Optional: For development and testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Optional: For code quality
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0
